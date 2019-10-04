@@ -69,6 +69,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ## Additional Information
 
+### Font Awesome
 Learn more about using Font Awesome with ReactJS
 https://www.npmjs.com/package/@fortawesome/react-fontawesome
 
@@ -81,3 +82,6 @@ const element = <FontAwesomeIcon icon={faCoffee} />
  
 ReactDOM.render(element, document.body)
 ```
+### Google Maps Integration
+
+Useful snippet - start here, https://gist.github.com/jwo/43b382fc60eb09d3a415c9953f4057f8
