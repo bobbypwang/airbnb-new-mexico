@@ -66,3 +66,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Additional Information
+
+Learn more about using Font Awesome with ReactJS
+https://www.npmjs.com/package/@fortawesome/react-fontawesome
+
+```javascript
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+ 
+const element = <FontAwesomeIcon icon={faCoffee} />
+ 
+ReactDOM.render(element, document.body)
+```
